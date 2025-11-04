@@ -1,0 +1,82 @@
+# ======================================================
+# Arquivos e diretórios do Python
+# ======================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.env/
+env/
+.venv/
+ENV/
+
+# Arquivos de configuração de ambiente
+*.env
+*.env.*
+
+# Logs e cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+*.db
+
+# Diretórios criados por testes ou build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Diretórios de cache
+.cache/
+.mypy_cache/
+pytest_cache/
+__pypackages__/
+
+# Arquivos temporários do editor
+*.swp
+*.swo
+*~
+*.tmp
+
+# IDEs e editores (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# ======================================================
+# FastAPI / Uvicorn / Docker / etc.
+# ======================================================
+
+# Se estiver usando Docker
+docker-compose.override.yml
+*.pid
+
+# Arquivos de migração (caso use ORM como SQLAlchemy ou Alembic)
+migrations/
+alembic/
+*.bak
+
+# Arquivos de testes locais
+test_results/
+coverage/
+.coverage
+htmlcov/
+
+# ======================================================
+# Arquivos personalizados do seu projeto
+# ======================================================
+
+# Dados sensíveis e uploads locais
+uploads/
+media/
+temp/
